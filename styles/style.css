@@ -83,6 +83,11 @@
   padding: 1.8px 11px 1.6px 14px;
 }
 
+.header__theme-menu-button_active {
+  outline: 1px solid var(--button-color);
+  padding: 1px 12px;
+}
+
 .header__theme-menu-button_type_dark:hover {
   outline: 1px solid var(--button-color);
   padding: 1px 12px;

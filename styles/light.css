@@ -10,7 +10,7 @@
 @media (prefers-color-scheme: light) {
   :root {
  --background-image: url('../images/cover-image-light.png');
-  --background-color: #FFC0CB;
+  --background-color: #ffeef6;
   --accent-color: #FF8DCB;
   --color: #FFC2E6;
   --button-color: #353430;

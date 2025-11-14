@@ -1,12 +1,15 @@
-/*
-  Специально для тёмной темы при наличии класса,
-  здесь окажутся стили, которые нужно переопределить принудительно,
-  переключая тему
-*/
+:root.theme-dark {  
+  --background-image: url('../images/cover-image-dark.png');
+  --color: #DB00FF;
+  --font-family: 'IBM Plex mono';
+  --accent-color: #ff0070;
+  --font-size-text: 18px;
+  --font-size-headings:clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
+  --background-color: #152238;
+  --button-color: #ff0070;
+  --text-color: #f1b2ce;
+}
 
-:root.theme-dark {
-  /* сохраните этот селектор в приведённом виде.
-    Так стили написанные ниже будут иметь больший вес,
-    чем стили в медиазапросе предпочтений пользователя
-  */
+:root.theme-dark .decorated-word {
+  display: inline-block;
 }

@@ -1,4 +1,4 @@
-:root.theme-dark {  
+:root.theme-dark {
   --background-image: url('../images/cover-image-dark.png');
   --color: #DB00FF;
   --font-family: 'IBM Plex mono';

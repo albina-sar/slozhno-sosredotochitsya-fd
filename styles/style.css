@@ -80,9 +80,9 @@
 .header__theme-menu-button {
   background-color: transparent;
   border: none;
-  padding: 1.8px 11px 1.6px 14px;
+  padding: 1px 11px 2px 14px;
   outline: none;
-  padding: 1px 12px;
+  
 }
 
 .header__theme-menu-button_active {

@@ -82,7 +82,6 @@
   border: none;
   padding: 1px 11px 2px 14px;
   outline: none;
-  
 }
 
 .header__theme-menu-button_active {
@@ -364,7 +363,7 @@
   }
 
   .title {
-    font-size: clamp(9.8125rem, 9.351rem + 0.7212vw, 10rem);
+    font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
   }
 
   .header_paragraph {
@@ -398,6 +397,6 @@
   }
 
   .footer-heading {
-    font-size: clamp(9.8125rem, 9.351rem + 0.7212vw, 10rem);
+    font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
   }
 }

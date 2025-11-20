@@ -170,6 +170,10 @@
   color: var(--button-color);
 }
 
+.card-advise {
+  margin-bottom: 20px;
+}
+
 .card-text {
   font-family: var(--font-family), monospace;
   font-weight: 400;
@@ -183,8 +187,8 @@
   font-weight: 400;
 }
 
-.card-advise {
-  margin-top: 20px;
+.section-advices .card-text {
+  padding-bottom: 20px;
 }
 
 .link {
@@ -204,7 +208,7 @@
 }
 
 .content-section-images {
-  padding: 50px 10px 40px 10px;
+  padding: 10px 10px 40px 10px;
   display: grid;
   grid-template-columns: 1fr;
   row-gap: 10px;
@@ -292,6 +296,10 @@
     grid-column: 1;
   }
 
+  .card-advise {
+    align-self: flex-start;
+  }
+
   .section-why .card,
   .section-advices .card {
     grid-column: 2;
@@ -311,7 +319,7 @@
   }
 
   .content-section-images {
-    padding: 80px 20px 60px;
+    padding: 20px 20px 60px;
     grid-template-columns: repeat(3, 1fr);
     gap: 20px;
   }
